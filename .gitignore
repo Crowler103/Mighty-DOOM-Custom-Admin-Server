@@ -10,6 +10,8 @@ venv/
 # Local config and secrets
 .env
 *.local
+game-data.json
+start_admin_all_interfaces_Clean.bat
 
 # Local game/server data - do not publish these
 db/*.sqlite3

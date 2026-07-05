@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local config and secrets
+.env
+*.local
+
+# Local game/server data - do not publish these
+db/*.sqlite3
+db/*.sqlite
+db/*.db
+backups/
+data/game-data.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local exports, logs and packaged artifacts
+data/admin-events.json
+*.zip
+*.ndjson
+*.log

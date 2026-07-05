@@ -1,0 +1,66 @@
+{
+  "resources": [
+    {
+      "id": 28,
+      "category": 5,
+      "tag": "energy",
+      "value": 0
+    },
+    {
+      "id": 4,
+      "category": 2,
+      "tag": "heavy_cannon",
+      "value": 0
+    },
+    {
+      "id": 6,
+      "category": 2,
+      "tag": "rocket_launcher",
+      "value": 0
+    }
+  ],
+  "currencies": [
+    {
+      "id": 1,
+      "tag": "coins",
+      "availability": 3,
+      "value": 1
+    },
+    {
+      "id": 3,
+      "tag": "crystals",
+      "availability": 3,
+      "value": 10
+    }
+  ],
+  "weapons": [
+    {
+      "id": 4,
+      "tag": "heavy_cannon",
+      "slot": 1,
+      "token": 11,
+      "availability": 3
+    },
+    {
+      "id": 6,
+      "tag": "rocket_launcher",
+      "slot": 7,
+      "token": 13,
+      "availability": 3
+    }
+  ],
+  "inventory": {
+    "slots": [
+      {
+        "id": 1,
+        "type": 1,
+        "tag": "primary_weapon"
+      },
+      {
+        "id": 2,
+        "type": 7,
+        "tag": "secondary_weapon"
+      }
+    ]
+  }
+}
